@@ -1,2 +1,5 @@
 # L3_SocialNetworkProject
-third year final project 
+
+Attempt at using Django to make a social network website 
+
+Project made for University 

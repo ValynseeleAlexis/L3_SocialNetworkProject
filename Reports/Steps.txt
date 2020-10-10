@@ -1,6 +1,0 @@
-10/10/2020:
-
-Learning how to setup a virtual python env to setup the django project using virtualenv 
-
-virtualenv : https://virtualenv.pypa.io/en/stable/
-guide : https://www.youtube.com/watch?v=N5vscPTWKOk

@@ -1,0 +1,59 @@
+!!!!steps.txt!!!
+This file contains all the steps I went through to build this project with date stamp
+
+
+10/10/2020:
+
+First time working on the project 
+
+- 1) Learning how to setup a virtual python env to setup the django project using virtualenv 
+
+virtualenv : https://virtualenv.pypa.io/en/stable/
+guide : https://www.youtube.com/watch?v=N5vscPTWKOk
+
+to create the env
+    virtualenv myenv_name
+
+to use the env 
+    source myenv_name/bin/activate
+
+then we can install our packages :
+    pip install package1,package2,package3 ....
+
+To quickly setup the same env on an another machine we can export our requirements
+
+pip frozen --local > requirements.txt
+
+then on the other machine 
+
+set up an env
+then pip install -r requirements.txt
+
+
+
+- 2) Setting up a django project :
+
+With django installed
+    django-admin startproject  myproject_name
+
+then we can run the web server
+    python myproject_name/manage.py runserver 
+
+- 3) create an app :
+        manage.py startapp appName
+
+Then we can code our app in the app directory 
+To add the app to the server path we need to include it in the root django project urls.py
+for example 
+urlpatterns = [
+    path('myapp/', include('myapp.urls')),
+]
+
+or 
+
+urlpatterns = [
+    path('', include('myapp.urls')),
+] to make it the main app on the server (localhost:8000 redirect directly to 'myapp')
+
+
+- 4) Using templates to generate html responses:

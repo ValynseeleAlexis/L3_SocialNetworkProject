@@ -2,7 +2,7 @@
 
 ![Texte alternatif](./Screenshots/banner.png "Banner")
 
-Attempt at using Django to make a social network website.
+A basic attempt at using Django to make a social network website.
 
 Project made as my final project for my third year in computer science at UPHF (Université polytechnique hauts de france).
 
@@ -13,7 +13,7 @@ Project made as my final project for my third year in computer science at UPHF (
   -python3.85 <br>
   -pip3
   
- 1. setting up a python virtual environnement with the requirements 
+ 1. **Setting up a python virtual environnement with the requirements**
  
     * Downloading virtualenv : pip install virtualenv
     * mkdir env -> cd env/
@@ -23,14 +23,14 @@ Project made as my final project for my third year in computer science at UPHF (
     
 We now have a virtual python environnement with all the requirements for the project.
     
-2. Starting the django server 
+2. **Starting the django server** 
 
     * cd L3_SocialNetworkProject/
     * python manage.py runserver
     
-If nothing went wrong you now have a local django server running the application 
+If nothing went wrong you now have a local django server running the application.
     
-3. Browse the website 
+3. **Browse the website**
 
     * go to localhost:8000 on your favourite browser
    

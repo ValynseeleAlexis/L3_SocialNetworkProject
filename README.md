@@ -1,5 +1,7 @@
 # L3_SocialNetworkProject
 
+![Texte alternatif](./Screenshots/banner.png "Banner")
+
 Attempt at using Django to make a social network website.
 
 Project made as my final project for my third year in computer science at UPHF (Université polytechnique hauts de france).

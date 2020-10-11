@@ -55,5 +55,25 @@ urlpatterns = [
     path('', include('myapp.urls')),
 ] to make it the main app on the server (localhost:8000 redirect directly to 'myapp')
 
+11/10/2020:
 
 - 4) Using templates to generate html responses:
+
+    First we make a templates directory and an app directory inside
+    we can then add html.template that will be used by the server
+    using the render method of django when creating views
+    the context argument of the render method make it possible to pass python dictionaries that we can process in the html code with {{key}}
+    , we can also make loop and conditional statements with {% python code %}
+
+    we can use template inheritance to make a base template
+
+- 5) Front-end : 
+        -We can work on the base template to put a bit a of style to our website (navbar,css)
+
+        !!!!For the learning project in Learning/django_01 I used the styling of Corey Schafer : https://www.youtube.com/channel/UCCezIgC97PvUuR4_gbFUs5g on his django blog tutorial series
+        !!! to follow the tutorial, i'll do my own front-end stuff when working on the real project
+
+        to put css in a django project we need to create a static folder within the root directory of our app and a code block at the top of our html
+        {% load static %}
+
+        we can reference url with {% url 'url-name (setup within url.py)' % }

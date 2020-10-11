@@ -2,7 +2,7 @@
 
 Attempt at using Django to make a social network website.
 
-Project made as my final project for my third year in computer science at UPHF ('université polytechnique hauts de france').
+Project made as my final project for my third year in computer science at UPHF (Université polytechnique hauts de france).
 
 ## How to set up a developpement environnement
 

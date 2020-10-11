@@ -14,8 +14,8 @@ Project made as my final project for my third year in computer science at UPHF (
  1. setting up a python virtual environnement with the requirements 
  
     * Downloading virtualenv : pip install virtualenv
-    * mkdir env then cd env/
-    *. virtualenv django_env
+    * mkdir env -> cd env/
+    * virtualenv django_env
     * source django_env/bin/activate
     * pip install -r ../requirements.txt
     
